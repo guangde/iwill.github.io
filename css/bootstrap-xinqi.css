@@ -11,7 +11,7 @@ body{
     line-height: 40px;
     margin-right: 20px;
 }
-/*����*/
+/*����*/
 .navbar{margin-bottom: 0;border-bottom: 1px solid #e6e6e6;}
 .navbar-default{
     background-color: #fff;
@@ -34,7 +34,7 @@ body{
 .navbar-toggle{
     margin-top: 17px;
 }
-.banner{text-align:center;color: #fff;background:url(../images/banner.jpg);background-size:100% 100%;}
+.banner{text-align:center;color: #fff;background:url(../images/banner.jpg);background-size:100% 150%;}
 .lvjing{
     width: 100%;
     height: 100%;
@@ -66,7 +66,7 @@ body{
 /*bbs*/
 #bbs{
     padding: 80px 0;
-    text-align: center;
+    /* text-align: center; */
 }
 #bbs .col-md-4{
     padding: 15px;
@@ -105,7 +105,7 @@ body{
 }
 #course h2{
     font-weight: bold;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 }
 #course .col-md-3{
     margin-bottom: 20px;
@@ -190,4 +190,11 @@ footer{
     text-align: center;
     padding:20px;
     color:#999;
+}
+
+.border-1{
+    border: 4px solid #3498db; /* 设置边框粗细、样式和颜色 */
+    border-radius: 10px; /* 圆角边框 */
+    position: relative; /* 为了绝对定位的小圆做准备 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 盒子阴影增加高级感 */
 }
